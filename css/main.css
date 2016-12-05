@@ -46,6 +46,56 @@ figure {
   display: block;
 }
 
+section h2 {
+  margin: 0;
+}
+
+section p {
+  margin: 0;
+}
+
+section {
+  overflow: hidden;
+}
+
+.section-body {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.img-1 {
+  float: left;
+  width: 20%;
+}
+
+.img-2 {
+  float: left;
+  width: 20%;
+}
+
+.wrapper {
+  padding: 1.3rem;
+  max-width: 45em;
+  margin: 0 auto;
+}
+
+.btn {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.125rem;
+  display: inline-block;
+  border: 3px solid #333;
+  padding: .4em .75em .3em;
+  border-radius: 8px;
+  margin: 2em;
+}
+
+.btn:hover {
+  text-decoration: none;
+  color: #ccc;
+  background-color: #000;
+}
+
 @media only screen and (min-width: 25em) {
 
   html {
@@ -56,6 +106,16 @@ figure {
   h1,
   p {
     margin: 0 0 1.3rem;
+  }
+
+  .img-1 {
+    margin-left: 1rem;
+    width: 40%;
+  }
+
+  .img-2 {
+    margin-left: 1rem;
+    width: 40%;
   }
 
 }
