@@ -10,7 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font: normal 100%/1.3 'Gerogia', serif;
+  font: normal 100%/1.3 Gerogia, serif;
 }
 
 *, *::before, *::after {
@@ -21,18 +21,19 @@ header {
   text-align: center;
   margin: 0;
   padding: 0;
-  font-family: 'Lobster', cursive;
+  font-family: Lobster, cursive;
   font-size: 1rem;
 }
 
 li a {
   list-style-type: none;
   text-decoration: none;
-  font-family: 'Gerogia', serif;
+  font-family: Gerogia, serif;
 }
 
 .img-flex {
   max-width: 100%;
+  position: relative;
 }
 
 .card {
