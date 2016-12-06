@@ -77,10 +77,6 @@ section p {
   margin: 0;
 }
 
-section {
-  overflow: hidden;
-}
-
 .section-body {
   margin-top: 0;
   margin-bottom: 0;
@@ -126,7 +122,6 @@ body {
 .person-img {
   width: 19%;
   position: relative;
-  vertical-align: middle;
   float: left;
 }
 
