@@ -23,6 +23,7 @@ header {
   padding: 0;
   font-family: Lobster, cursive;
   font-size: 1rem;
+  background-color: #ef91e6;
 }
 
 .header-img {
@@ -30,10 +31,24 @@ header {
   max-width: 50%;
 }
 
-ul li {
+nav a {
   list-style-type: none;
   text-decoration: none;
   font-family: Gerogia, serif;
+  font-size: 1.2rem;
+  margin: 0;
+  text-align: center;
+  padding: .2em .5em;
+  border-radius: 4px;
+}
+
+a:hover {
+  background-color: #d2186f;
+}
+
+ul {
+  float: right;
+  width: 67%;
 }
 
 .img-flex {
