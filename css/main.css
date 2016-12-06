@@ -42,7 +42,6 @@ a {
   text-align: center;
   padding: .2em .5em;
   border-radius: 5px;
-  border-color: #7f347f;
 }
 
 a:hover {
@@ -125,15 +124,17 @@ body {
 }
 
 .person-img {
-  max-width: 100%;
+  width: 19%;
   position: relative;
   vertical-align: middle;
+  float: left;
 }
 
 .review {
   border-radius: 5px;
   background-color: #e0f0fc;
   text-align: center;
+  overflow: hidden;
 }
 
 @media only screen and (min-width: 25em) {
@@ -207,7 +208,13 @@ body {
 
   ul li {
     display: inline-block;
-    padding: 0;
+  }
+
+  .blockquote {
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+    border-radius: 6px;
   }
 
 }
