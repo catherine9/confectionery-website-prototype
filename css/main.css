@@ -33,18 +33,17 @@ main {
   padding: 0 10px;
 }
 
-a {
+li {
   list-style-type: none;
   text-decoration: none;
-  font-family: Gerogia, serif;
+  font-family: Cinzel, serif;
   font-size: 1.2rem;
   margin: 0;
-  text-align: center;
   padding: .2em .5em;
   border-radius: 5px;
 }
 
-a:hover {
+li:hover {
   background-color: #d2186f;
 }
 
@@ -130,6 +129,10 @@ body {
   background-color: #e0f0fc;
   text-align: center;
   overflow: hidden;
+}
+
+footer {
+  font-family: Cinzel, serif;
 }
 
 @media only screen and (min-width: 25em) {
