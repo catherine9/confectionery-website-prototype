@@ -67,6 +67,11 @@ dl {
   max-width: 50%;
 }
 
+ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
 a {
   list-style-type: none;
   text-decoration: none;
@@ -89,7 +94,7 @@ a:hover {
 }
 
 .img-flex-1:hover {
-  opacity: 0.3; filter: alpha(opacity=30);
+  opacity: .3;
 }
 
 .img-flex-2 {
@@ -99,7 +104,7 @@ a:hover {
 }
 
 .img-flex-2:hover {
-  opacity: 0.3; filter: alpha(opacity=30);
+  opacity: .3;
 }
 
 .img-flex-3 {
@@ -109,7 +114,7 @@ a:hover {
 }
 
 .img-flex-3:hover {
-  opacity: 0.3; filter: alpha(opacity=30);
+  opacity: .3;
 }
 
 .img-flex-4 {
@@ -119,7 +124,7 @@ a:hover {
 }
 
 .img-flex-4:hover {
-  opacity: 0.3; filter: alpha(opacity=30);
+  opacity: .3;
 }
 
 .img-flex-5 {
@@ -129,7 +134,7 @@ a:hover {
 }
 
 .img-flex-5:hover {
-  opacity: 0.3; filter: alpha(opacity=30);
+  opacity: .3;
 }
 
 .cupcake-img-flex {
@@ -267,7 +272,6 @@ footer {
   li {
     list-style-type: none;
     text-decoration: none;
-    display: none;
   }
 
   figure {
@@ -322,8 +326,9 @@ footer {
     color: #fff;
     border-radius: 6px;
     background-color: rgba(0, 0, 0, .3);
-    width: 37%;
+    width: 38%;
     margin: 0;
+    padding-left: .5em;
   }
 
 }
@@ -370,6 +375,10 @@ footer {
   html {
     font-size: 130%;
     line-height: 1.6;
+  }
+
+  ul {
+    display: inline-block;
   }
 
 }
