@@ -173,7 +173,6 @@ a:hover {
   padding: .4em .75em .3em;
   border-radius: 8px;
   margin: 2em;
-  vertical-align: middle;
 }
 
 .btn-2:hover {
@@ -185,7 +184,6 @@ a:hover {
 h2 {
   font-family: Cinzel, serif;
   margin: .5em;
-  text-align: center;
 }
 
 body {
