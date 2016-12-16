@@ -39,14 +39,14 @@ header h1 {
 
 dd {
   float: right;
-  width: 35%;
+  width: 34%;
   font-style: italic;
   padding-left: 0;
 }
 
 dt {
   float: left;
-  width: 35%;
+  width: 34%;
   margin-left: 1em;
   font-family: Cinzel, serif;
 }
@@ -81,6 +81,10 @@ a {
   padding: .2em .5em;
   border-radius: 5px;
   text-align: center;
+}
+
+p {
+  margin-left: .5em;
 }
 
 a:hover {
@@ -181,6 +185,7 @@ a:hover {
 h2 {
   font-family: Cinzel, serif;
   margin: .5em;
+  text-align: center;
 }
 
 body {
@@ -272,6 +277,7 @@ footer {
   li {
     list-style-type: none;
     text-decoration: none;
+    display: inline-block;
   }
 
   figure {
@@ -327,7 +333,7 @@ footer {
     border-radius: 6px;
     background-color: rgba(0, 0, 0, .3);
     width: 38%;
-    margin: 0;
+    margin-left: 0;
     padding-left: .5em;
   }
 
@@ -377,7 +383,7 @@ footer {
     line-height: 1.6;
   }
 
-  ul {
+  li {
     display: inline-block;
   }
 
